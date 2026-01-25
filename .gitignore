@@ -1,0 +1,28 @@
+# Binaries
+bin/
+ops-dashboard
+ops-dashboard-linux
+
+# Config with secrets
+config.yaml
+
+# Go
+*.exe
+*.test
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+CLAUDE.md
+RELEASE-TICKETS.md

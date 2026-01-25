@@ -1,0 +1,6 @@
+FROM scratch
+
+ARG TARGETPLATFORM
+COPY ${TARGETPLATFORM}/quarterdeck /quarterdeck
+
+ENTRYPOINT ["/quarterdeck"]
